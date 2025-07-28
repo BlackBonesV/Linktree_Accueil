@@ -36,7 +36,9 @@ video#bg-video {
   transition: opacity 0.6s ease;
   filter: blur(1.5px) brightness(0.95);
 }
-
+body.loading video#bg-video {
+  visibility: hidden;
+}
 main {
   display: flex;
   flex-direction: column;
