@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@BlackBones</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/avatar.png" />
+</head>
+<body class="day">
+
+  <!-- Accueil magique -->
+  <div id="intro-screen">
+    <div id="intro-background"></div>
+    <div class="intro-content">
+      <h1 class="intro-title">@BlackBones</h1>
+      <button id="enter-button">Entrer</button>
+    </div>
+    <div class="lanterns" id="lantern-container"></div>
+  </div>
+
+  <!-- Linktree (masqué au départ) -->
+  <video id="bg-video" autoplay muted loop playsinline></video>
+
+  <button id="theme-toggle" aria-label="Changer le thème">
+    <img id="theme-icon" src="assets/icons/sun.png" alt="Icône thème" />
+  </button>
+
+  <main>
+    <div class="avatar-frame fade-in-1">
+      <img src="assets/avatar.png" alt="Avatar transparent" />
+    </div>
+    <h1 class="fade-in-2">@BlackBones</h1>
+    <p class="description fade-in-3">Créateur Twitch. Passionné par le monde magique du numérique ✨</p>
+
+    <div class="links fade-in-4">
+      <a href="#" class="link-button">🎮 Twitch</a>
+      <a href="#" class="link-button">📺 YouTube</a>
+      <a href="#" class="link-button">💬 Discord</a>
+      <a href="#" class="link-button">🐦 Twitter / X</a>
+    </div>
+  </main>
+
+  <footer class="fade-in-5">
+    <p>🍥 by <span class="footer-name">BlackBones</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
